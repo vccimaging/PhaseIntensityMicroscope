@@ -25,7 +25,13 @@ function [A, phi] = cws_gpu_wrapper(I0, I, opt)
 
 % get cws solver
 tpath = mfilename('fullpath');
-cws_path = [tpath(1:end-23) '/cuda/bin/cws'];
+if ismac || isunix
+    cws_path = [tpath(1:end-23) '/cuda/bin/cws'];
+elseif ispc
+    cws_path = ['"' tpath(1:end-23) '\cuda\bin\cws' '"'];
+else
+    disp('Platform not supported.');    
+end
 
 % check options
 if nargin == 3

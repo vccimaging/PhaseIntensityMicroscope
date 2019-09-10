@@ -32,7 +32,27 @@ sudo make install
 
 #### Windows
 
+Here we only provide one compilation approach. You can do any modifications for your convenience at will.
 
+It has been tested using Visual Studio 2017 and CUDA 10.1 on Windows 10.
+
+Steps:
+
+- Add OpenCV to the system `PATH` variable. The specific path depends on your installation option.
+
+- Run `cmake-gui` and configure your Visual Studio Solution. If CMake failed to auto-detect the paths:
+
+  - Manually find the path (depends on specific installation option), and modify `./CMakeLists.txt`;
+  - Then, try to configure and generate the project again.
+
+  If success, you will see `CWS.sln` be generated in your build folder.
+
+- In Visual Studio 2017 (opened as Administrator), build the solution. To install, in Visual Studio:
+
+  - Build -> Configuration Manager -> click on Build option for INSTALL;
+  - Then build the solution.
+
+  If success, you will see new folders `bin`, `include` and `lib` appear.
 
 ### Usage
 
