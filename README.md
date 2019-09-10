@@ -1,7 +1,7 @@
 ## Quantitative Phase and Intensity Microscope
 This is the open source repository for our paper to appear in Scientific Reports:
 
-[**Quantitative Phase and Intensity Microscopy Using Snapshot White Light Wavefront Sensing**](<https://vccimaging.org/Publications/Wang2019QPM/Wang2019QPM.pdf>)
+[**Quantitative Phase and Intensity Microscopy Using Snapshot White Light Wavefront Sensing**](<https://vccimaging.org/Publications/Wang2019QPM/>)
 
 [Congli Wang](https://congliwang.github.io), [Qiang Fu](http://vccimaging.org/People/fuq/), [Xiong Dun](http://vccimaging.org/People/dunx/), and [Wolfgang Heidrich](http://vccimaging.org/People/heidriw/)
 
