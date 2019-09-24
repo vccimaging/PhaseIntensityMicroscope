@@ -33,8 +33,8 @@ Our solver is not multi-scale because microscopy wavefronts are small; however b
   title = {Quantitative Phase and Intensity Microscopy Using Snapshot White Light Wavefront Sensing},
   author = {Wang, Congli and Fu, Qiang and Dun, Xiong and Heidrich, Wolfgang},
   journal = {Scientific Reports},
-  volume = {},
-  pages = {},
+  volume = {9},
+  pages = {13795},
   year = {2019},
   publisher = {Nature Publishing Group}
 }
