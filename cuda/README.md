@@ -34,7 +34,7 @@ sudo make install
 
 Here we only provide one compilation approach. You can do any modifications for your convenience at will.
 
-It has been tested using Visual Studio 2017 and CUDA 10.1 on Windows 10.
+It has been tested using Visual Studio 2017 and CUDA 10.0 on Windows 10.
 
 Steps:
 
