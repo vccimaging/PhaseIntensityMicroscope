@@ -23,7 +23,7 @@ Our solver is not multi-scale because microscopy wavefronts are small; however b
 
 - Sensor principle: [The Coded Wavefront Sensor](https://vccimaging.org/Publications/Wang2017CWS/>) (Optics Express 2017).
 - An adaptive optics application using this sensor: [Megapixel Adaptive Optics](<https://vccimaging.org/Publications/Wang2018AdaptiveOptics/>) (SIGGRAPH 2018).
-- Sensor simulation or old solvers, refer to repository <https:github.com/vccimaging/MegapixelAO>.
+- Sensor simulation or old solvers, refer to repository <https://github.com/vccimaging/MegapixelAO>.
 
 
 ### Citation
